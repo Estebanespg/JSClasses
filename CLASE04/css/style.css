@@ -1,0 +1,13 @@
+.titleBox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tableBox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tableTitleRow{
+    background-color:#258BA9;
+}

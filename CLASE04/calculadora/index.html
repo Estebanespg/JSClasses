@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Calculadora 🖥️</title>
+</head>
+<body>
+    <input type="hidden" id="oculto">
+    <input type="hidden" id="opera">
+    <div class="calculadora">
+        <div class="output">
+            <input type="text" class="display" id="result" placeholder="0" readonly>
+        </div>
+        <button id="n7" onclick="addN7( event );">7</button>
+        <button id="n8" onclick="addN8( event );">8</button>
+        <button id="n9" onclick="addN9( event );">9</button>
+        <button id="divi" onclick="addDivi( event );">÷</button>
+        <button id="n4" onclick="addN4( event );">4</button>
+        <button id="n5" onclick="addN5( event );">5</button>
+        <button id="n6" onclick="addN6( event );">6</button>
+        <button id="times" onclick="addTimes( event )">x</button>
+        <button id="n1" onclick="addN1( event );">1</button>
+        <button id="n2" onclick="addN2( event );">2</button>
+        <button id="n3" onclick="addN3( event );">3</button>
+        <button id="minus" onclick="addMinus( event );">-</button>
+        <button id="del" onclick="del( event );">C</button>
+        <button id="n0" onclick="addN0( event );">0</button>
+        <button id="equal" onclick="addEqual( event );">=</button>
+        <button id="plus" onclick="addPlus( event );">+</button>
+    </div>
+</body>
+<script src="js/app.js"></script>
+</html>
