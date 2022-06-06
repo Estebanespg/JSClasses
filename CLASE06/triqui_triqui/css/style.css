@@ -1,0 +1,40 @@
+.amarillo {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    float: left;
+}
+
+.amarillo:hover {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 0, 0.5);
+    float: left;
+}
+
+.rojo {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    float: left;
+}
+
+.rojo:hover {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(220, 20, 60, 0.5);
+    float: left;
+}
+
+.blanco{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    float: left;
+}
+
+.cuadro {
+    width: 600px;
+    height: 600px;
+    border: 5px solid black;
+}

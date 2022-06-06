@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Para identificar letras como dieresis, tildes y ñ´s-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Página 😁</title>
+</head>
+<body bgcolor="#E3E3E3">
+    <div class="titleBox">
+        <h1>Datos Personales</h1>
+    </div>
+    <div class="tableBox">
+        <table border="1" cellspacing="0" cellpadding="15" width="40%" id="tabla">
+            <thead>
+                <tr bgcolor="#258BA9">
+                    <th>NOMBRES</th>
+                    <th>VALOR</th>
+                </tr>
+            </thead>
+            <form action="#" id="formulario" method="post">
+                <tbody class="tbody">
+                    <tr>
+                        <td><label>Nombre</label></td>
+                        <td><input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="txtNombre"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Cedula</label></td>
+                        <td><input type="number" name="txtCedula" id="txtCedula" placeholder="Cedula" class="txtCedula"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit" id="validar">Guardar</button>
+                            <button type="reset" id="borrar">Limpiar</button>
+                            <label id="IDmsg"></label>
+                        </td>
+                    </tr>
+                </tbody>
+            </form>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

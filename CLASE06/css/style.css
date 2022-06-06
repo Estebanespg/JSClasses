@@ -1,0 +1,23 @@
+.titleBox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tableBox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tbody tr {
+    background-color: #B2E3F1;
+}
+
+.vacio {
+    border: 2px solid red;
+}
+
+.msg {
+    color: red;
+}
