@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin-top: 50px;
+    width: 60%;
+    height: auto;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.white {
+    width: calc( 100% / 7 );
+    height: 164px;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    transition: 2s;
+}
