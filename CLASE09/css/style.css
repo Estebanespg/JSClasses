@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cont {
+    width: 600px;
+    height: 600px;
+    margin: 100px auto;
+}
+
+.border {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid white;
+    background-color: rgb(110, 110, 110);
+}
+
+.border:hover {
+    background: #E3E3E3;
+}
